@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal">
+
+    <Button
+        android:id="@+id/buttonBestSellers"
+        style="@style/Widget.AppCompat.Button.Borderless"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:background="@drawable/bordered_rectangle"
+        android:text="Best Sellers"
+        android:textAllCaps="false" />
+
+    <Button
+        android:id="@+id/buttonMyBooks"
+        style="@style/Widget.AppCompat.Button.Borderless"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:background="@drawable/bordered_rectangle"
+        android:text="My Books"
+        android:textAllCaps="false" />
+
+    <Button
+        android:id="@+id/buttonAccount"
+        style="@style/Widget.AppCompat.Button.Borderless"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:background="@drawable/bordered_rectangle"
+        android:text="Account"
+        android:textAllCaps="false" />
+</LinearLayout>
